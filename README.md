@@ -6,7 +6,7 @@
 
 目录：
 
-  主目录：数据预处理、模型训练、推断
+  主目录：数据预处理、模型训练、推断\n
     rmlmodels:VGG\Rsenet\CLDNN like NN
     weights/good/:训练好的模型权重
     models:保存好的模型结构
