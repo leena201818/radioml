@@ -1,0 +1,18 @@
+
+dict{
+    (mod1,snr1):ndarray(1000,2,128),
+    ...
+    (mod11,snr11):ndarray(1000,2,128),
+}
+dict:keys(mod,snr):220 elements,11 mod ,20 snr each mod,1 each mod and snr.
+    mod:11 distinct elements
+    snr:20 distinct elements
+dict:values:ndarray(1000,2,128),1000 samples,shape is (2,128) representing 1 I/O signal sample.
+
+(mod,snr):ndarray[1000,2,128],element is ndarray[1000,2,128]
+
+一共11个模式mod
+每个模式对应20个信噪比snr
+每个（模式，信噪比）的样本数量是1000个
+总共有220000个样本
+每个样本的标签是('mod',snr)，表示不同snr下模式
